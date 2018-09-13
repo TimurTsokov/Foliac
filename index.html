@@ -1,197 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Foliac</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Foliac</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/foliac-fav.png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="menu-open">
 <header>
-  <div class="container">
-	 <nav>
-		<a class="logo" href="#"><img src="img/foliac-logo.png" alt="Foliac"></a>
-		<ul class="menu">
-		  <li><a href="#accueil">Accueil</a></li>
-		  <li><a href="#portfolio">Portfolio</a></li>
-		  <li><a href="#about">About</a></li>
-		  <li><a href="#contact">Contact</a></li>
-		  <li><a href="#map">Map</a></li>
-		</ul>
-	 </nav>
-  </div>
+    <div class="container">
+        <nav>
+            <a class="logo" href="#"><img src="img/foliac-logo.png" alt="Foliac"></a>
+            <ul class="menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#map">Map</a></li>
+            </ul>
+            <a href="" class="menu-toggler"></a>
+            <!--<div class="menu-tog">-->
+            <!--<span class="menu-tog-one"></span>-->
+            <!--<span class="menu-tog-two"></span>-->
+            <!--<span class="menu-tog-three"></span>-->
+            <!--</div>-->
+        </nav>
+    </div>
 </header>
 <main id="accueil">
-  <div id="slider">
-	 <section class="section section--bg text-center"
-				 style="background-image: linear-gradient(rgba(60,73,85,.86), rgba(60,73,85,.86)), url(img/bg1.jpg);">
-		<div class="container">
-		  <h1 class="title">voici votre prochain portfolio1</h1>
-		  <div class="subtitle">un template psd simple et gratuit</div>
-		  <a href="#" class="btn btn--default">mes travaux</a>
-		</div>
-	 </section>
-	 <section class="section section--bg text-center"
-				 style="background-image: linear-gradient(rgba(60,73,85,.86), rgba(60,73,85,.86)), url(img/bg1.jpg);">
-		<div class="container">
-		  <h1 class="title">voici votre prochain portfolio2</h1>
-		  <div class="subtitle">un template psd simple et gratuit</div>
-		  <a href="#" class="btn btn--default">mes travaux</a>
-		</div>
-	 </section>
-  </div>
-  <section class="section" id="portfolio">
-	 <div class="container">
-		<ul class="switchers">
-		  <li class="active"><a href="#" data-filter="*">Tous les projets</a></li>
-		  <li><a href="#" data-filter="webdesign">Webdesign</a></li>
-		  <li><a href="#" data-filter="uiuxdesign">UI/UX design</a></li>
-		  <li><a href="#" data-filter="illustration">Illustration</a></li>
-		  <li><a href="#" data-filter="motiondesign">Motion design</a></li>
-		</ul>
-		<div class="images-wrap">
-		  <div class="images">
-			 <div class="image-sizer"></div>
-			 <div class="gutter-sizer"></div>
-			 <div class="image webdesign uiuxdesign">
-				<img src="img/multiple-items.jpg" alt="multiple-items">
-				<div class="image-overlay">
-				  <div class="image-title">Loremipsumdolor.</div>
-				  <div class="image-subtitle">Lorem ipsum dolor sit amet, consectetur.</div>
-				</div>
-			 </div>
-			 <div class="image image--xxl webdesign motiondesign">
-				<img src="img/app.jpg" alt="app">
-				<div class="image-overlay">
-				  <div class="image-title">Loremipsumdolor.</div>
-				  <div class="image-subtitle">Lorem ipsum dolor sit amet, consectetur.</div>
-				</div>
-			 </div>
-			 <div class="image image--xl illustration motiondesign">
-				<img src="img/identité-visuelle.jpg" alt="identité">
-				<div class="image-overlay">
-				  <div class="image-title">Loremipsumdolor.</div>
-				  <div class="image-subtitle">Lorem ipsum dolor sit amet, consectetur.</div>
-				</div>
-			 </div>
-			 <div class="image image--l uiuxdesign illustration">
-				<img src="img/prototype.jpg" alt="prototype">
-				<div class="image-overlay">
-				  <div class="image-title">Loremipsumdolor.</div>
-				  <div class="image-subtitle">Lorem ipsum dolor sit amet, consectetur.</div>
-				</div>
-			 </div>
-		  </div>
-		</div>
-	 </div>
-  </section>
-  <section class="section section--bg" id="about"
-			  style="background-image: linear-gradient(rgba(60,73,85,.86), rgba(60,73,85,.86)), url(img/bg2.jpg);">
-	 <div class="container">
-		<div class="profile">
-		  <h2 class="profile__title">Mihael Dupont</h2>
-		  <div class="profile__subtitle">Webdesigner, illustrateur, auteur</div>
-		  <div class="profile__text">
-			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae culpa dolorum ipsam, iste placeat ratione
-				reprehenderit! Dolores, nobis, reiciendis! Animi beatae cum, eos magnam nemo pariatur reprehenderit similique!
-				Alias cupiditate dolores facere incidunt numquam odit pariatur quam quisquam quo vitae!</p>
-		  </div>
-		  <a href="" class="btn btn--gray">me contacter</a>
-		</div>
-	 </div>
-  </section>
-  <section class="section" id="contact">
-	 <div class="container">
-		<form action="" method="post" class="form">
-		  <h2 class="title">Me contacter</h2>
-		  <fieldset>
-			 <input type="text" name="name" placeholder="Votre nom">
-			 <input type="email" name="email" placeholder="Votre email">
-		  </fieldset>
-		  <textarea name="message" placeholder="Votre massege"></textarea>
-		  <button class="btn btn--green">Envoyer</button>
-		</form>
-
-	 </div>
-  </section>
-  <section class="section" id="map"></section>
+    <div id="slider">
+        <section class="section section--bg text-center"
+                 style="background-image: linear-gradient(rgba(60,73,85,.86), rgba(60,73,85,.86)), url(img/bg1.jpg);">
+            <div class="container">
+                <h1 class="title">voici votre prochain portfolio1</h1>
+                <div class="subtitle">un template psd simple et gratuit</div>
+                <a href="#" class="btn btn--default">mes travaux</a>
+            </div>
+        </section>
+        <section class="section section--bg text-center"
+                 style="background-image: linear-gradient(rgba(60,73,85,.86), rgba(60,73,85,.86)), url(img/bg1.jpg);">
+            <div class="container">
+                <h1 class="title">voici votre prochain portfolio2</h1>
+                <div class="subtitle">un template psd simple et gratuit</div>
+                <a href="#" class="btn btn--default">mes travaux</a>
+            </div>
+        </section>
+    </div>
+    <section class="section" id="portfolio">
+        <div class="container">
+            <ul class="switchers">
+                <li class="active"><a href="#" data-filter="*">Tous les projets</a></li>
+                <li><a href="#" data-filter="webdesign">Webdesign</a></li>
+                <li><a href="#" data-filter="uiuxdesign">UI/UX design</a></li>
+                <li><a href="#" data-filter="illustration">Illustration</a></li>
+                <li><a href="#" data-filter="motiondesign">Motion design</a></li>
+            </ul>
+            <div class="images-wrap">
+                <div class="images">
+                    <div class="image-sizer"></div>
+                    <div class="gutter-sizer"></div>
+                    <div class="image webdesign uiuxdesign">
+                        <img src="img/multiple-items.jpg" alt="multiple-items">
+                        <div class="image-overlay">
+                            <div class="image-title">Loremipsumdolor.</div>
+                            <div class="image-subtitle">Lorem ipsum dolor sit amet, consectetur.</div>
+                        </div>
+                    </div>
+                    <div class="image image--xxl webdesign motiondesign">
+                        <img src="img/app.jpg" alt="app">
+                        <div class="image-overlay">
+                            <div class="image-title">Loremipsumdolor.</div>
+                            <div class="image-subtitle">Lorem ipsum dolor sit amet, consectetur.</div>
+                        </div>
+                    </div>
+                    <div class="image image--xl illustration motiondesign">
+                        <img src="img/identité-visuelle.jpg" alt="identité">
+                        <div class="image-overlay">
+                            <div class="image-title">Loremipsumdolor.</div>
+                            <div class="image-subtitle">Lorem ipsum dolor sit amet, consectetur.</div>
+                        </div>
+                    </div>
+                    <div class="image image--l uiuxdesign illustration">
+                        <img src="img/prototype.jpg" alt="prototype">
+                        <div class="image-overlay">
+                            <div class="image-title">Loremipsumdolor.</div>
+                            <div class="image-subtitle">Lorem ipsum dolor sit amet, consectetur.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section--bg" id="about"
+             style="background-image: linear-gradient(rgba(60,73,85,.86), rgba(60,73,85,.86)), url(img/bg2.jpg);">
+        <div class="container">
+            <div class="profile">
+                <h2 class="profile__title">Mihael Dupont</h2>
+                <div class="profile__subtitle">Webdesigner, illustrateur, auteur</div>
+                <div class="profile__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae culpa dolorum ipsam, iste
+                        placeat ratione
+                        reprehenderit! Dolores, nobis, reiciendis! Animi beatae cum, eos magnam nemo pariatur
+                        reprehenderit similique!
+                        Alias cupiditate dolores facere incidunt numquam odit pariatur quam quisquam quo vitae!</p>
+                </div>
+                <a href="" class="btn btn--gray">me contacter</a>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <div class="container">
+            <form action="http://ilich.in.ua/feedback/create" method="POST" class="form">
+                <h2 class="title">Me contacter</h2>
+                <fieldset>
+                    <input type="text" name="name" placeholder="Votre nom">
+                    <input type="text" name="phone" placeholder="Phone number">
+                    <input type="email" name="email" placeholder="Votre email" style="margin-left: 0 !important;">
+                </fieldset>
+                <textarea name="text" placeholder="Votre massege"></textarea>
+                <button class="btn btn--green" type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <section class="section" id="map"></section>
 </main>
 <footer>
-  <div class="container">
-	 <div class="copyright">
-		Copyright © 2015 by -<a href="#" target="_blank"> www.beneggen.fr</a>
-	 </div>
-	 <ul class="socials">
-		<li><a href="#" class="icon icon--tw"></a></li>
-		<li><a href="#" class="icon icon--in"></a></li>
-		<li><a href="#" class="icon icon--dr"></a></li>
-		<li><a href="#" class="icon icon--be"></a></li>
-	 </ul>
-  </div>
+    <div class="container">
+        <div class="copyright">
+            Copyright © 2015 by -<a href="#" target="_blank"> www.beneggen.fr</a>
+        </div>
+        <ul class="socials">
+            <li><a href="#" class="icon icon--tw"></a></li>
+            <li><a href="#" class="icon icon--in"></a></li>
+            <li><a href="#" class="icon icon--dr"></a></li>
+            <li><a href="#" class="icon icon--be"></a></li>
+        </ul>
+    </div>
 </footer>
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/jscript.js"></script>
 
 <script>
-	 $(document).ready(function () {
-			$('#slider').slick({
-				 autoplay: true,
-				 arrows: false,
-				 infinite: true
-			});
+    //---------------Ajax запрос-----------------------
+    var form = document.querySelector('form');
+    form.addEventListener('submit', function (ev) {
+        ev.preventDefault();
 
-			var isotope = $('.images').isotope({
-				 itemSelector: '.image',
-				 percentPosition: true,
-				 // layoutMode: 'masonry'
-				 masonry: {
-						columnWidth: '.image-sizer',
-						gutter: '.gutter-sizer'
-				 }
-			});
-			$('.switchers a').on('click', function (e) {
-				 $('.switchers li').removeClass('active');
-				 $(this).parent().addClass('active');
-				 e.preventDefault();
-				 var filter = $(this).attr('data-filter');
-				 filter = filter == '*' ? filter : '.' + filter;
-				 isotope.isotope({
-						filter: filter
-				 })
-			})
-	 });
-	 var map, marker, infoWindow,
-		 center = {
-				lat: 47.1013689,
-				lng: 37.5483022
-		 };
+        var data = new FormData(form);
+        var type = form.getAttribute('method');
+        var url = form.getAttribute('action');
+        // валидация
+        var xr = new XMLHttpRequest();
+        xr.open(type, url, true);
 
-	 function initMap() {
-			map = new google.maps.Map(document.getElementById('map'), {
-				 center: center,
-				 zoom: 16
-			});
+        xr.onreadystatechange = function () {
+            if (xr.readyState != 4) return;
+            if (xr.status == 200) {
+                var response = JSON.parse(xr.responseText);
+                if (response.status == 'OK') {
+                    alert(response.message);
+                } else {
+                    alert('Error: ' + response.message)
+                }
+            } else {
+                alert('Error: ' + xr.statusText);
+            }
+        };
+        xr.send(data);
+    });
+    //---------------------------------------------------
+    $(document).ready(function () {
+        $('#slider').slick({ //слайдер
+            autoplay: true,
+            arrows: false,
+            infinite: true
+        });
 
-			marker = new google.maps.Marker({
-				 position: center,
-				 map: map,
-				 title: 'Hello World!',
-				 icon: 'favicon.png'
-			});
-			infoWindow = new google.maps.InfoWindow({
-				 content: '<h3>info window of Beetroot</h3>'
-			});
-			marker.addListener('click', function () {
-				 infoWindow.open(map, marker);
-			});
-	 }
+        var isotope = $('.images').isotope({ // для фильтрации картинок по типу data-filter
+            itemSelector: '.image',
+            percentPosition: true,
+            // layoutMode: 'masonry'
+            masonry: {
+                columnWidth: '.image-sizer',
+                gutter: '.gutter-sizer'
+            }
+        });
+        $('.switchers a').on('click', function (e) {
+            $('.switchers li').removeClass('active');
+            $(this).parent().addClass('active');
+            e.preventDefault();
+            var filter = $(this).attr('data-filter');
+            filter = filter == '*' ? filter : '.' + filter;
+            isotope.isotope({
+                filter: filter
+            })
+        })
+    });
+    var map, marker, infoWindow, // Подключение карты
+        center = {
+            lat: 47.1013689,
+            lng: 37.5483022
+        };
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: center,
+            zoom: 16
+        });
+
+        marker = new google.maps.Marker({
+            position: center,
+            map: map,
+            title: 'Hello World!',
+            icon: 'favicon.png'
+        });
+        infoWindow = new google.maps.InfoWindow({
+            content: '<h3>info window of Beetroot</h3>'
+        });
+        marker.addListener('click', function () {
+            infoWindow.open(map, marker);
+        });
+    }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQDEK_bp8E3TJz1Sg1VMqF7jn8J3Z7Haw&callback=initMap" async
-		  defer></script>
+        defer></script>
 </body>
 </html>

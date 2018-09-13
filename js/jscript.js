@@ -8,6 +8,10 @@ $(document).ready(function () {
         }
     });
 
+    $('a[href="#"]').on('click', function (e) {
+        e.preventDefault();
+    });
+
     $('.menu-toggler').on('click', function (e) {
         e.preventDefault();
         $('body').toggleClass('menu-open');
@@ -26,4 +30,5 @@ $(document).ready(function () {
             $('nav').css({"padding": "2rem 0"})
         }
     })
+
 });
